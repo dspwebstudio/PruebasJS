@@ -6,6 +6,7 @@ import Button from '@mui/material/Button'
 import Container from '@mui/material/Container'
 import AttachFileIcon from '@mui/icons-material/AttachFile';
 import Sections from "./assets/components/Sections";
+import Section1 from "./assets/components/Section1";
 
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
       {/* Navegacion */}
       <Navegacion/>
       {/* Fin Navegacion */}
+
+      {/* Secciones */}
+      <Sections/>
+      {/* Fin Secciones */}
      
     </div>
   );

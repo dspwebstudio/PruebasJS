@@ -1,17 +1,17 @@
 import { Component } from "react";
-import './Sections.css'
-import Container from '@mui/material/Container'
-import Container from '@mui/material/Container'
+import Section1 from "./Section1";
+import "./Sections.css";
 
-class Sections extends Component{
-    render(){
-        return(
-            {/* Contenedor */}
-            <Container maxWidth="xs">
-              
-            </Container>
-            {/* Fin Contenedor */}
-        )
-    }
+class Sections extends Component {
+  render() {
+    return (
+      <>
+        <Section1 />
+        <Section1 />
+        <Section1 />
+        <Section1 />
+      </>
+    );
+  }
 }
-export default Sections
+export default Sections;
