@@ -2,6 +2,7 @@ import "./App.css";
 import "animate.css";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Sections from "./assets/components/Sections";
+import Navegacion from './assets/components/Navegacion'
 
 
 
