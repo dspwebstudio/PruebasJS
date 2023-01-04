@@ -6,7 +6,7 @@ class Section1 extends Component {
   render() {
     return (
       <>
-        <Container maxWidth="xs" className="container">
+        <Container maxWidth="lg" className="contenedor">
           <h2>Bienvenido Daniel</h2>
         </Container>
       </>
